@@ -3,12 +3,11 @@
 int main(){
     int ch;
     while((ch = getchar()) != EOF){
-        if(ch >= 'A' && ch <= 'Z'){
-            ch = ch + ('a' - 'A');
+        if (ch >= 'A' && ch <= 'Z'){
+            ch += 'a' - 'A';
         }
-
         putchar(ch);
+        fflush(stdout);
     }
-
     return 0;
 }
