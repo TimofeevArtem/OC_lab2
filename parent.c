@@ -21,8 +21,8 @@ int main(void){
     SECURITY_ATTRIBUTES sa = {0};
     PROCESS_INFORMATION child1 = {0};
     PROCESS_INFORMATION child2 = {0};
-    STARTUPINFOA si1 = {0};
-    STARTUPINFOA si2 = {0};
+    STARTUPINFO si1 = {0};
+    STARTUPINFO si2 = {0};
 
     DWORD written;
     int ch;
